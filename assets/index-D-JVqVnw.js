@@ -1,0 +1,1 @@
+import{aT as t,aV as a,cL as e}from"./index-CAJ2SmV2.js";const l=({reason:n="billing",onRetry:r})=>{const{t:s}=t();return a.jsxs(a.Fragment,{children:[a.jsx("p",{role:"status",children:s(`paymentSubscriptions.${n}Unavailable`)}),a.jsx(e,{label:s("home.error.retry"),onClick:()=>void r()})]})};export{l as B};

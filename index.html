@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Biyuya</title>
+    <meta
+      name="description"
+      content="Domina tus finanzas con Biyuya: la aplicación de gestión financiera todo en uno. Registra tus ingresos y gastos, administra tus cuentas compartidas, realiza transferencias y más. ¡Simplifica tu vida financiera hoy mismo con Biyuya!"
+    />
+    <link rel="icon" type="image/svg+xml" href="/biyuya-desktop-preview/logo.svg" />
+    <link rel="apple-touch-icon" href="/biyuya-desktop-preview/apple-touch-icon.png" />
+    <link
+      rel="preload"
+      href="/biyuya-desktop-preview/startup-logo.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <!-- Android -->
+    <meta name="theme-color" content="#306f50" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Biyuya" />
+    <!-- Windows -->
+    <meta name="msapplication-TileColor" content="#306f50" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <style>
+      /* Pre-React mirror of the Capa 2 primary/button-text palette. */
+      #startup-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 2147483647;
+        display: grid;
+        min-height: 100vh;
+        min-height: 100dvh;
+        place-items: center;
+        overflow: hidden;
+        background: #306f50;
+      }
+
+      #startup-splash[data-state='leaving'] {
+        pointer-events: none;
+        animation: startup-splash-exit 720ms cubic-bezier(0.22, 1, 0.36, 1)
+          forwards;
+      }
+
+      #startup-splash-logo {
+        display: block;
+        width: min(120px, 32vw);
+        height: auto;
+        transform-origin: center;
+      }
+
+      #startup-splash[data-state='leaving'] #startup-splash-logo {
+        animation: startup-logo-exit 720ms cubic-bezier(0.65, 0, 0.35, 1)
+          forwards;
+      }
+
+      @keyframes startup-splash-exit {
+        0%,
+        28% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes startup-logo-exit {
+        0% {
+          transform: scale(1);
+        }
+
+        12% {
+          transform: scale(0.88);
+        }
+
+        100% {
+          transform: scale(32);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #startup-splash[data-state='leaving'] {
+          animation-duration: 120ms;
+          animation-timing-function: linear;
+        }
+
+        #startup-splash[data-state='leaving'] #startup-splash-logo {
+          animation: none;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/biyuya-desktop-preview/assets/index-CAJ2SmV2.js"></script>
+    <link rel="stylesheet" crossorigin href="/biyuya-desktop-preview/assets/index-Vbm3a29-.css">
+  </head>
+  <body>
+    <div id="startup-splash" role="status" aria-label="Biyuya" aria-busy="true">
+      <img
+        id="startup-splash-logo"
+        src="/biyuya-desktop-preview/startup-logo.svg"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
+    <div id="root"></div>
+  </body>
+</html>

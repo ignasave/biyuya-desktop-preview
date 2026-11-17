@@ -1,0 +1,1 @@
+const e={en:"https://biyuya.tawk.help",es:"https://biyuya.tawk.help/es"},p={en:"https://biyuya.tawk.help/article/plans-and-pricing",es:"https://biyuya.tawk.help/es/article/planes-y-precios"},i=(t,s)=>(s==null?void 0:s.split("-")[0])==="es"?t.es:t.en;export{e as H,p as P,i as k};

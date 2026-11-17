@@ -1,0 +1,1 @@
+import{b6 as c,bA as p,b7 as b,bB as f}from"./index-CAJ2SmV2.js";function l({status:e,error:t,redirectTo:n}){const o=c(),{showError:a}=p();b.useEffect(()=>{var u;const s=(u=t==null?void 0:t.response)==null?void 0:u.status;e==="error"&&typeof s=="number"&&s>=400&&s<500&&(a(f("notFound.title")),o(n,{replace:!0}))},[e,t,n,o,a])}export{l as u};

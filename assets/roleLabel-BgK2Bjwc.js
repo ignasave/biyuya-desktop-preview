@@ -1,0 +1,1 @@
+const s=(r,e)=>{switch(r){case"admin":return e("accounts.roles.admin");case"editor":return e("accounts.roles.editor");case"viewer":return e("accounts.roles.viewer");default:return r??""}};export{s as r};
