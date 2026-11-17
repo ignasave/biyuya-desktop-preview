@@ -1,0 +1,1 @@
+import{aT as r,aV as t,bh as i,bi as o}from"./index-B-K98MkG.js";import{M as s}from"./index-DkY0dBda.js";const c=()=>{const{t:a}=r();return t.jsxs(i,{children:[t.jsx(o,{title:a("privacyPolicy.title")}),t.jsx(s,{children:a("privacyPolicy.content")})]})};export{c as PrivacyPolicyPage};

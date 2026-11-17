@@ -1,1 +1,0 @@
-import{aV as e,aX as x,b9 as i}from"./index-CAJ2SmV2.js";const j=({size:r=4,gap:s="1rem",height:a=88,width:o,borderRadius:t=24,className:m})=>e.jsx(x,{gap:s,className:m,children:[...Array(r)].map((l,n)=>e.jsx(i,{height:a,width:o,borderRadius:t},n))});export{j as L};

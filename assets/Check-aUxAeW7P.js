@@ -1,1 +1,0 @@
-import{aS as t}from"./index-CAJ2SmV2.js";var n=function(e){return t.createElement("svg",Object.assign({width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg"},e),t.createElement("path",{d:"M7 12L11 15.5L18 9",stroke:(e==null?void 0:e.color)||"var(--biy-color-black-rich)",strokeWidth:"2",strokeLinecap:"round"}))};export{n as C};

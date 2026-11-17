@@ -1,0 +1,1 @@
+import{d4 as s}from"./index-B-K98MkG.js";let t={all:{queryKey:{entity:"exchangeRates"}},latestCrossed:{queryKey:e=>({entity:"exchangeRates",scope:"latestCrossed",method:"detail",params:e})},list:{queryKey:e=>({entity:"exchangeRates",method:"list",params:e})}};t=s(t,{auth:!0});export{t as e};

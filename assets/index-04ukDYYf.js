@@ -1,1 +1,0 @@
-import{aV as o,bh as i}from"./index-CAJ2SmV2.js";const t="_outFloriture_1ay89_1",s="_insideSolidBorder_1ay89_22",r={outFloriture:t,insideSolidBorder:s},a=({children:e})=>o.jsx(i,{className:r.outFloriture,children:o.jsx("div",{className:r.insideSolidBorder,children:e})});export{a as D};
