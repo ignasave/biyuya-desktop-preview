@@ -1,0 +1,1 @@
+import{b3 as n,b0 as s}from"./index-03QPHzny.js";const o=["people","accounts"],i={detail:"accounts",matrix:"accounts"};function r(t){return o.includes(t)}function c(t){return r(t)?t:t&&t in i?i[t]:"people"}function e(t){return n(s.insights.labs.associateContributions,{variant:t})}export{o as A,e as b,r as i,c as r};

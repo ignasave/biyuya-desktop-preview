@@ -1,1 +1,0 @@
-import{d1 as c,b6 as n,d2 as r,b7 as i,b0 as m,aV as t}from"./index-B-K98MkG.js";const p=()=>{const[a]=c(),e=n(),o=r(s=>s.loadSession);return i.useEffect(()=>{const s=a.get("accessToken");s&&o(s),e(m.home)},[e,a,o]),t.jsx(t.Fragment,{})};export{p as Callback};

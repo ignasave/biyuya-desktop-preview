@@ -1,0 +1,1 @@
+import{aT as s,aV as t,bh as o,bi as r}from"./index-03QPHzny.js";import{M as i}from"./index-eDq53VpZ.js";const d=()=>{const{t:n}=s();return t.jsxs(o,{children:[t.jsx(r,{title:n("termsAndConditions.title")}),t.jsx(i,{children:n("termsAndConditions.content")})]})};export{d as TermsAndConditionsPage};
